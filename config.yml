@@ -1,0 +1,137 @@
+osm: transit.osm.pbf
+tiles:
+  profile: tiles-profiles/full.lua
+  db_size: 274877906944
+  flush_threshold: 100000
+timetable:
+  first_day: TODAY
+  num_days: 365
+  railviz: true
+  with_shapes: true
+  route_shapes:
+    mode: all
+    clasz:
+      COACH: false
+    max_stops: 100
+    cache_reuse_old_osm_data: false
+  adjust_footpaths: true
+  merge_dupes_intra_src: true
+  merge_dupes_inter_src: true
+  link_stop_distance: 150
+  update_interval: 60
+  http_timeout: 30
+  incremental_rt_update: false
+  use_osm_stop_coordinates: false
+  extend_missing_footpaths: true
+  max_footpath_length: 100
+  max_matching_distance: 25.0
+  preprocess_max_matching_distance: 0.0
+  datasets:
+    trenitalia:
+      path: trenitalia.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+      rt:
+        - url: http://gtfs-rt:40000/gtfs-rt/trenitalia/trip_updates.pb
+    sta:
+      path: sta.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+      rt:
+        - url: https://efa.sta.bz.it/gtfs-r/
+    trenord:
+      path: trenord.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    tte:
+      path: tte.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+      rt:
+        - url: http://gtfs-rt:40000/gtfs-rt/trentino-trasporti/trip_updates.pb
+    ttu:
+      path: ttu.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+      rt:
+        - url: http://gtfs-rt:40000/gtfs-rt/trentino-trasporti/trip_updates.pb
+    flix:
+      path: flix.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    blabla:
+      path: blabla.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    actvt:
+      path: actvt.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    actvm:
+      path: actvm.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    atv:
+      path: atv.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    bivt:
+      path: bivt.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    mom:
+      path: mom.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    brescianord:
+      path: brescianord.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    brescia:
+      path: brescia.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    bresciasud:
+      path: bresciasud.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    arriva:
+      path: arriva.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    atm:
+      path: atm.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    dobu:
+      path: dobu.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    busitalia:
+      path: busitalia.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+elevators: false
+street_routing: true
+osr_footpath: true
+geocoding: true
+reverse_geocoding: true

@@ -1,0 +1,15 @@
+networks:
+  web:
+    external: true
+
+services:
+  motis:
+    image: alpine:3.20
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ./motis server
+    cpus: 2.5
+    restart: always
+    networks:
+      - web

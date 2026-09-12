@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Trenitalia",
+    "url": "https://github.com/gwabbey/cciss-gtfs/releases/download/latest/trenitalia.gtfs.zip",
+    "output": "trenitalia.gtfs.zip"
+  },
+  {
+    "name": "Trenord",
+    "url": "https://github.com/gwabbey/cciss-gtfs/releases/download/latest/trenord.gtfs.zip",
+    "output": "trenord.gtfs.zip"
+  },
+  {
+    "name": "Trentino Trasporti Urbano",
+    "url": "https://www.trentinotrasporti.it/opendata/google_transit_urbano_tte.zip",
+    "output": "ttu.gtfs.zip"
+  },
+  {
+    "name": "Trentino Trasporti Urbano",
+    "url": "https://www.trentinotrasporti.it/opendata/google_transit_urbano_tte.zip",
+    "output": "ttu.gtfs.zip"
+  },
+  {
+    "name": "Trentino Trasporti Extraurbano",
+    "url": "https://www.trentinotrasporti.it/opendata/google_transit_extraurbano_tte.zip",
+    "output": "tte.gtfs.zip"
+  },
+  {
+    "name": "STA Bolzano",
+    "url": "https://gtfs.api.opendatahub.com/v1/dataset/sta-time-tables/raw",
+    "output": "sta.gtfs.zip"
+  },
+  {
+    "name": "ACTV Venezia Terra",
+    "url": "https://actv.avmspa.it/sites/default/files/attachments/opendata/automobilistico/actv_aut.zip",
+    "output": "actvt.gtfs.zip"
+  },
+  {
+    "name": "ACTV Venezia Mare",
+    "url": "https://actv.avmspa.it/sites/default/files/attachments/opendata/navigazione/actv_nav.zip",
+    "output": "actvm.gtfs.zip"
+  },
+  {
+    "name": "MOM Treviso",
+    "url": "https://mobilitadimarca.it/treviso/google_transit.zip",
+    "output": "mom.gtfs.zip"
+  },
+  {
+    "name": "BIV Padova Tram",
+    "url": "https://gtfs-biv.fsbusitalia.com/GTFS-BIV-TRAM/gtfs-biv-tram.zip",
+    "output": "bivt.gtfs.zip"
+  },
+  {
+    "name": "EAV Ente Volturno Autonomo",
+    "url": "https://www.wimob.it/cfile/download.php?file=google-transit.zip",
+    "output": "eav.gtfs.zip"
+  },
+  {
+    "name": "ATM Milano",
+    "url": "https://dati.comune.milano.it/gtfs.zip",
+    "output": "atm.gtfs.zip"
+  },
+  {
+    "name": "ATV Verona",
+    "url": "https://github.com/gwabbey/cciss-gtfs/releases/download/latest/atv.gtfs.zip",
+    "output": "atv.gtfs.zip"
+  },
+  {
+    "name": "ATVO",
+    "url": "https://github.com/gwabbey/cciss-gtfs/releases/download/latest/atvo.gtfs.zip",
+    "output": "atvo.gtfs.zip"
+  },
+  {
+    "name": "Arriva Italia",
+    "url": "https://github.com/gwabbey/cciss-gtfs/releases/download/latest/arriva.gtfs.zip",
+    "output": "arriva.gtfs.zip"
+  },
+  {
+    "name": "Busitalia Veneto Gomma",
+    "url": "https://github.com/gwabbey/cciss-gtfs/releases/download/latest/bivg.gtfs.zip",
+    "output": "bivg.gtfs.zip"
+  },
+  {
+    "name": "Busitalia",
+    "url": "https://github.com/gwabbey/cciss-gtfs/releases/download/latest/busitalia.gtfs.zip",
+    "output": "busitalia.gtfs.zip"
+  },
+  {
+    "name": "Brescia",
+    "url": "https://github.com/gwabbey/cciss-gtfs/releases/download/latest/brescia.gtfs.zip",
+    "output": "brescia.gtfs.zip"
+  },
+  {
+    "name": "Brescia Nord",
+    "url": "https://github.com/gwabbey/cciss-gtfs/releases/download/latest/brescianord.gtfs.zip",
+    "output": "brescianord.gtfs.zip"
+  },
+  {
+    "name": "Brescia Sud",
+    "url": "https://github.com/gwabbey/cciss-gtfs/releases/download/latest/bresciasud.gtfs.zip",
+    "output": "bresciasud.gtfs.zip"
+  },
+  {
+    "name": "Dolomitibus",
+    "url": "https://github.com/gwabbey/cciss-gtfs/releases/download/latest/dobu.gtfs.zip",
+    "output": "dobu.gtfs.zip"
+  },
+  {
+    "name": "Flixbus",
+    "url": "http://gtfs.gis.flix.tech/gtfs_generic_eu.zip",
+    "output": "flix.gtfs.zip"
+  },
+  {
+    "name": "Blablacar Bus",
+    "url": "https://api.transitous.org/gtfs/eu_blablacar-bus.gtfs.zip",
+    "output": "blabla.gtfs.zip"
+  }
+]
