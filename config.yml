@@ -61,6 +61,8 @@ timetable:
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: true
+      rt:
+        - url: https://rt.flix.baguette.pirnet.si/rt.pb
     blabla:
       path: blabla.gtfs.zip
       default_bikes_allowed: false
@@ -71,21 +73,30 @@ timetable:
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: true
+      rt:
+        - url: https://proxy.busone.app/actv-aut/gtfs-rt/trip-updates.pb
+        - url: https://proxy.busone.app/actv-aut/gtfs-rt/vehicle-positions.pb
     actvm:
       path: actvm.gtfs.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: true
+      rt:
+        - url: https://proxy.busone.app/actv-nav/gtfs-rt/trip-updates.pb
+        - url: https://proxy.busone.app/actv-nav/gtfs-rt/vehicle-positions.pb
     atv:
       path: atv.gtfs.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: true
-    bivt:
-      path: bivt.gtfs.zip
+    biv:
+      path: biv.gtfs.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: true
+      rt:
+        - url: https://proxy.busone.app/biv/gtfs-rt/trip-updates.pb
+        - url: https://proxy.busone.app/biv/gtfs-rt/vehicle-positions.pb
     mom:
       path: mom.gtfs.zip
       default_bikes_allowed: false
@@ -121,8 +132,18 @@ timetable:
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: true
-    busitalia:
-      path: busitalia.gtfs.zip
+    cotral:
+      path: cotral.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    at:
+      path: at.gtfs.zip
+      default_bikes_allowed: false
+      default_cars_allowed: false
+      extend_calendar: true
+    tplfvg:
+      path: tplfvg.gtfs.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: true
