@@ -33,33 +33,29 @@ timetable:
       default_cars_allowed: false
       extend_calendar: true
       rt:
-        - url: http://gtfs-rt:40000/gtfs-rt/trenitalia/trip_updates.pb
+        - url: https://proxy.busone.app/trenitalia/gtfs-rt/trip-updates.pb
+        - url: https://proxy.busone.app/trenitalia/gtfs-rt/vehicle-positions.pb
     sta:
       path: sta.gtfs.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: true
       rt:
-        - url: https://efa.sta.bz.it/gtfs-r/
+        - url: https://proxy.busone.app/sta/gtfs-rt/trip-updates.pb
+        - url: https://proxy.busone.app/sta/gtfs-rt/vehicle-positions.pb
     trenord:
       path: trenord.gtfs.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: true
-    tte:
-      path: tte.gtfs.zip
+    tt:
+      path: tt.gtfs.zip
       default_bikes_allowed: false
       default_cars_allowed: false
       extend_calendar: true
       rt:
-        - url: http://gtfs-rt:40000/gtfs-rt/trentino-trasporti/trip_updates.pb
-    ttu:
-      path: ttu.gtfs.zip
-      default_bikes_allowed: false
-      default_cars_allowed: false
-      extend_calendar: true
-      rt:
-        - url: http://gtfs-rt:40000/gtfs-rt/trentino-trasporti/trip_updates.pb
+        - url: https://proxy.busone.app/trentino/gtfs-rt/trip-updates.pb
+        - url: https://proxy.busone.app/trentino/gtfs-rt/vehicle-positions.pb
     flix:
       path: flix.gtfs.zip
       default_bikes_allowed: false

@@ -1,7 +1,7 @@
 [
   {
     "name": "Trenitalia",
-    "url": "https://github.com/gwabbey/cciss-gtfs/releases/download/latest/trenitalia.gtfs.zip",
+    "url": "https://proxy.busone.app/trenitalia/gtfs.zip",
     "output": "trenitalia.gtfs.zip"
   },
   {
@@ -10,23 +10,13 @@
     "output": "trenord.gtfs.zip"
   },
   {
-    "name": "Trentino Trasporti Urbano",
-    "url": "https://www.trentinotrasporti.it/opendata/google_transit_urbano_tte.zip",
-    "output": "ttu.gtfs.zip"
+    "name": "Trentino Trasporti",
+    "url": "https://proxy.busone.app/trentino/gtfs.zip",
+    "output": "tt.gtfs.zip"
   },
   {
-    "name": "Trentino Trasporti Urbano",
-    "url": "https://www.trentinotrasporti.it/opendata/google_transit_urbano_tte.zip",
-    "output": "ttu.gtfs.zip"
-  },
-  {
-    "name": "Trentino Trasporti Extraurbano",
-    "url": "https://www.trentinotrasporti.it/opendata/google_transit_extraurbano_tte.zip",
-    "output": "tte.gtfs.zip"
-  },
-  {
-    "name": "STA Bolzano",
-    "url": "https://gtfs.api.opendatahub.com/v1/dataset/sta-time-tables/raw",
+    "name": "STA",
+    "url": "https://proxy.busone.app/sta/gtfs.zip",
     "output": "sta.gtfs.zip"
   },
   {
